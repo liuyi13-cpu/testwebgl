@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/OUT.loader.js";
+      var loaderUrl = buildUrl + "/testwebgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/OUT.data.br",
-        frameworkUrl: buildUrl + "/OUT.framework.js.br",
-        codeUrl: buildUrl + "/OUT.wasm.br",
+        dataUrl: buildUrl + "/testwebgl.data",
+        frameworkUrl: buildUrl + "/testwebgl.framework.js",
+        codeUrl: buildUrl + "/testwebgl.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
@@ -89,7 +89,7 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        // unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
